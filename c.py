@@ -4,7 +4,7 @@ nickname = input("Choose your nickname: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client.connect(('127.0.0.1',7976))
+client.connect(('127.0.0.1',7000))
 
 def receive():
     while True:
